@@ -1,0 +1,52 @@
+<!-- - viết css ở đâu
+    + riêng 1 file và link vào (2)
+    + viết vào thẻ style (1)
+    + viết trực tiếp vào thuộc tính style (0)
+
+- css selector + thứ tự ưu tiên
+    + tên thẻ (3)
+    + class (2)
+    + id (1)
+    
+    + tự tìm hiểu !important
+
+- box model
+    + hộp chứa nội dung
+    + các khoảng cách: margin, padding
+    + màu sắc: background-color, background-image
+    + đường viền: border, border-style, border-color, ...
+    + căn lề nội dung: text-align -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style2.css">
+    <link rel="stylesheet" href="./style1.css">
+</head>
+
+<body>
+
+    <section style="width: 700px; margin: auto;">
+        <div class="question">
+            Mình thích cậu. Cậu có thích tớ không 🧡
+        </div>
+
+        <div>
+            <div class="answer float-left bg-green">Yes</div>
+            <div class="answer float-right bg-red">No</div>
+        </div>
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+/* nội dung file css viết ở trong này */
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+}
+
+ol {
+    color: white;
+}
+
+#text-red-specific {
+    color: red;
+}
+
+.text-red {
+    color: red;
+}

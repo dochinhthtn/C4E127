@@ -1,0 +1,42 @@
+* {
+    font-family: 'League Spartan', sans-serif;
+}
+
+.question {
+    background-color: #212121;
+    color: #ffffff;
+    text-align: center;
+    height: 300px;
+    line-height: 300px;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.answer {
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    font-size: 30px;
+    color: #ffffff;
+    border-radius: 10px
+}
+
+.bg-green {
+    background-color: #19A15F;
+}
+
+.bg-red {
+    background-color: #DD4F42;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+/* css atomic */

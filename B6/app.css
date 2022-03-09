@@ -1,0 +1,60 @@
+* {
+    font-size: 30px;
+    color: white;
+}
+
+.header, .footer {
+    background-color: chocolate;
+    height: 100px;
+    /* text-align: center;
+    line-height: 100px; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 700px;
+    gap: 30px; 
+    /* gap: khoảng cách giữa 2 phần tử trong flexbox */
+}
+
+.main .aside {
+    background-color: aqua;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.main .article {
+    background-color: brown;
+    width: 70%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* align-items: center; */
+}
+
+.main .article .title {
+    text-align: center;
+}
+
+.main .article .img-list {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-around; */
+    padding: 30px;
+    gap: 30px;
+}
+
+.main .article .img-list .img-container {
+    width: 300px;
+    height: auto;
+    flex-grow: 1;
+}
