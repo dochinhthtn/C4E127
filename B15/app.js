@@ -222,5 +222,14 @@ const users = [
 // tạo branch chính: git branch -M <tên branch> 
 
 // thêm file vào staging area: git add .
+// lưu lại sự thay đổi: git commit -m "Lời nhắn gì đấy, tùy!"
+
+// đẩy code lên Remote Repo: git push <tên remote> <tên branch>
+// nếu gặp lỗi + cảnh báo: git pull <tên remote> <tên branch>
+// pull: gộp code cũ vào code mới
+    // có thể xảy ra xung đột code
+    
+
+// fetch + rebase: gộp code mới vào code cũ => commit đẹp hơn
 
 
